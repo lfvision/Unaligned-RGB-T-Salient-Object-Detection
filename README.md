@@ -6,31 +6,42 @@ Official PyTorch implementation of the paper: **"Uncertainty-Aware Modality Fusi
 
 ## 📢 News
 * **[2026.03]** 🚀 Code repository initialized for CVPR 2026.
-* **[Coming Soon]** Pre-trained models and full training scripts will be released.
+* **[2026.03]** 🎉 Accepted by CVPR 2026.
 
 ---
 
 ## 📊 Dataset Preparation
 
-We evaluate our model on three standard RGB-T SOD benchmarks. Please download and organize them as follows:
+Our model is evaluated across RGB-T SOD benchmarks (Unaligned & Aligned) and extended to Light Field SOD benchmarks to demonstrate its superior generalization.
 
-### 1. Download Links
-| Dataset | Images | Description | Link |
-| :--- | :---: | :--- | :---: |
-| **VT5000** | 5000 | Largest benchmark for RGB-T SOD | [[Download]](https://github.com/WangXiao2018/VT5000) |
-| **VT1000** | 1000 | Diverse scenarios and objects | [[Download]](https://github.com/trash-ai/VT1000) |
-| **VT821** | 821 | Classic early-stage benchmark | [[Download]](https://github.com/Zhengzhe-Liu/VT821) |
+### 1. RGB-T SOD Datasets
+| Category | Dataset | Images | Link |
+| :--- | :--- | :---: | :---: |
+| **Unaligned** | **UVT20K** | 40,000 | [[Download]](https://github.com/KunpengWang-96/PCNet) |
+| **Unaligned** | **UVT2000** | 2,000 | [[Download]](https://github.com/KunpengWang-96/SACNet) |
+| **Weakly Aligned** | **un-VT5000** | 5,000 | [[Download]](https://github.com/ZhengzheTu/DCNet) |
+| **Weakly Aligned** | **un-VT1000** | 1,000 | [[Download]](https://github.com/ZhengzheTu/DCNet) |
+| **Weakly Aligned** | **un-VT821** | 821 | [[Download]](https://github.com/ZhengzheTu/DCNet) |
+| **Aligned** | **VT5000** | 5,000 | [[Download]](https://github.com/WangXiao2018/VT5000) |
+| **Aligned** | **VT1000** | 1,000 | [[Download]](https://github.com/trash-ai/VT1000) |
+| **Aligned** | **VT821** | 821 | [[Download]](https://github.com/Zhengzhe-Liu/VT821) |
 
-### 2. Data Organization
+### 2. Light Field SOD Datasets (Generalization Study)
+As mentioned in the **Supplementary Material**, we also evaluate our method on two widely used light field datasets:
+
+| Dataset | Training | Testing | Description |
+| :--- | :---: | :---: | :--- |
+| **DUTLF-V2** | 2,957 | 1,247 | Covers ten representative object categories across real-world scenes. |
+| **PKU-LF** | - | - | The largest publicly available light field dataset with 100+ object categories. |
+
+### 3. Data Organization
 ```text
 data/
 ├── train/
-│   ├── RGB/          # .jpg or .png
-│   ├── T/            # Thermal images
-│   └── GT/           # Ground Truth (Binary masks)
+│   ├── RGB/
+│   ├── T/
+│   └── GT/
 ├── test/
-│   ├── VT5000/
-│   │   ├── RGB/
-│   │   ├── T/
-│   │   └── GT/
+│   ├── UVT20K/
+│   ├── DUTLF-V2/
 │   └── ...
