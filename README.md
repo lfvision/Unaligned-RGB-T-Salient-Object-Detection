@@ -34,11 +34,3 @@ data/
 │   │   ├── T/
 │   │   └── GT/
 │   └── ...
-
-
-@inproceedings{yourname2026uncertainty,
-  title={Uncertainty-Aware Modality Fusion for Unaligned RGB-T Salient Object Detection},
-  author={Your Name and Your Collaborators},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2026}
-}
