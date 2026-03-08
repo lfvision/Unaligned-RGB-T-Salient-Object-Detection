@@ -12,7 +12,7 @@ Official PyTorch implementation of the paper: **"Uncertainty-Aware Modality Fusi
 
 ## 📊 Dataset Preparation
 
-Our model is evaluated across RGB-T SOD benchmarks (Unaligned & Aligned) and extended to Light Field SOD benchmarks to demonstrate its superior generalization.
+Our model is evaluated across RGB-T SOD benchmarks (Unaligned & Aligned) and extended to Light Field SOD benchmarks.
 
 ### 1. RGB-T SOD Datasets
 | Category | Dataset | Images | Link |
@@ -26,8 +26,7 @@ Our model is evaluated across RGB-T SOD benchmarks (Unaligned & Aligned) and ext
 | **Aligned** | **VT1000** | 1,000 | [[Download]](https://github.com/trash-ai/VT1000) |
 | **Aligned** | **VT821** | 821 | [[Download]](https://github.com/Zhengzhe-Liu/VT821) |
 
-### 2. Light Field SOD Datasets (Generalization Study)
-As mentioned in the **Supplementary Material**, we also evaluate our method on two widely used light field datasets:
+### 2. Light Field SOD Datasets
 
 | Dataset | Training | Testing | Description |
 | :--- | :---: | :---: | :--- |
