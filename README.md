@@ -5,8 +5,8 @@ Official PyTorch implementation of the paper: **"Uncertainty-Aware Modality Fusi
 ---
 
 ## 📢 News
-* **[2026.03]** 🚀 Code repository initialized for CVPR 2026.
 * **[2026.03]** 🎉 Accepted by CVPR 2026.
+* **[Coming Soon]** Pre-trained models and full training scripts will be released.
 
 ---
 
