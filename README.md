@@ -33,7 +33,7 @@ Our model is evaluated across RGB-T SOD benchmarks (Unaligned & Aligned) and ext
 | Dataset | Training | Testing | Description | Link |
 | :--- | :---: | :---: | :--- | :---: |
 | **DUTLF-V2** | 2,957 | 1,247 | Covers ten representative object categories across real-world scenes. | [[Download]](https://github.com/kerenfu/LFSOD-Survey) |
-| **PKU-LF** | - | - | The largest publicly available light field dataset with 100+ object categories. | [[Download]](https://github.com/littlespray/E-Bench) |
+| **PKU-LF** | - | - | The largest publicly available light field dataset with 100+ object categories. | [[Download]](https://github.com/kerenfu/LFSOD-Survey) |
 
 ### 3. Data Organization
 ```text
