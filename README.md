@@ -6,8 +6,7 @@ Official PyTorch implementation of the paper: **"Uncertainty-Aware Modality Fusi
 
 ## 📢 News
 * **[2026.03]** 🎉 Accepted by CVPR 2026.
-* **[2026.05]** [Code](https://github.com/zitalk/UMFNet).
-
+* **[2026.05]** We release a refactored codebase that is cleaner, lighter, easier to use, and achieves better performance: [Code](https://github.com/zitalk/UMFNet).
 ---
 
 ## 📊 Dataset Preparation
