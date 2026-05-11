@@ -49,7 +49,7 @@ data/
 
 ```
 ### 4. Results
-[[Result链接]] (https://pan.baidu.com/s/1AKh-2xs5YKtkQhgrFn2DTQ?pwd=TJUT) 提取码: TJUT
+[[Result链接]](https://pan.baidu.com/s/1AKh-2xs5YKtkQhgrFn2DTQ?pwd=TJUT) 提取码: TJUT
 
 
 
